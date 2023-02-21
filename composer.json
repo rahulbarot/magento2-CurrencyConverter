@@ -1,0 +1,27 @@
+{
+    "name": "devawesome/module-currencyconverter",
+    "description": "Magento 2 : Currencyconverter for currencyapi.com",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Rahul Barot",
+            "email": "business.magerahul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4.0||~8.1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DevAwesome\\Currencyconverter\\": ""
+        }
+    }
+}
